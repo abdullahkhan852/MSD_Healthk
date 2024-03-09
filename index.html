@@ -4,36 +4,35 @@
 <title>MSD Animal Health Website</title>
 
 <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css\style1.css">
-
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css\style1.css">-->
+<style>
+    .container {
+        display: flex;
+    }
+    .image-container {
+        flex: 1;
+        margin: 10px;
+    }
+    .image-container img {
+        width: 100%;
+        display: block;
+    }
+</style>
 </head>
 
 <body>
-
-<div class="main-panel">
-	<div class="container" id="navbar1">
-    <nav id="navbar">
-    <div class="width-33 logo">MSD<span class="span-col">&nbsp&nbspAnimal Health.</span>
-    </div> </nav>
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-<div class="gallery">
-     <div class="card">
-     <!--<div class="btn-container">
-    <a href="videos\Intra Utreine_water based_Done.mp4"  class="btn contact-btn">-->
-     <a href="videos\Intra Utreine_water based_Done.mp4">  
-     <img src="videos\bottle.jpg" alt="water-based">
-    </a></div>
-
-     <div class="card">
-    <!-- <a href="videos\Metricef_Done.mp4"  class="btn contact-btn"> -->
-     <a href="videos\Metricef_Done.mp4" >
-     <img src="videos\metricef.jpg" alt="metricef-based"></a>
-     </div>
-
+<div class="container">
+    <div class="image-container">
+        <a href="videos/Intra Utreine_water based_Done.mp4" target="_blank">
+            <img src="videos/bottle.jpg" alt="Water-based" />
+        </a>
+    </div>
+    <div class="image-container">
+        <a href="videos/Metricef_Done.mp4" target="_blank">
+            <img src="videos/metricef.jpg" alt="Metricef-based" />
+        </a>
+    </div>
 </div>
-	
 </body>
 </html>
